@@ -35,11 +35,6 @@ nav .navbar-items .navbar-links ul {
     gap: 100px;
 }
 
-
-nav .navbar-items .navbar-links ul li {
-
-}
-
 nav .navbar-items .navbar-links ul li a {
     font-family: 'Open Sans';
     font-size: 24px;
@@ -50,6 +45,19 @@ nav .navbar-items .navbar-links ul li a {
 
 
 /* ANIMATIONS */
+
+.nav-links-anim-in {
+    text-decoration: line-through !important;
+    text-shadow: 0 0 15px #fff;
+    transition-timing-function: ease-out;
+    transition-duration: 0.2s;
+}
+.nav-links-anim-out {
+    text-decoration: none;
+        transition-timing-function: ease-out;
+    transition-duration: 0.2s;
+}
+
 .svg-triangle-anim-in {
     margin-top: 150px;
     transition-timing-function: ease-out;
