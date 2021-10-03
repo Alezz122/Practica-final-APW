@@ -3,6 +3,8 @@ nav {
     height: 15px;
     background-color: #000;
     display: flex;
+    position: fixed;
+    z-index: 5;
 }
 nav svg {
     position: absolute;

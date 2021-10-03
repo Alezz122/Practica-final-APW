@@ -1,13 +1,13 @@
 .main-window {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 150px 0 150px;
+    margin: 0 120px 0 120px;
 }
 .vertical-container-margin {
     width: 150px;
 }
 .top-title {
-    margin: 20px 0 20px 20px;
+    margin: 10px 0 10px 10px;
     width: 100%;
 }
 .top-title h2 {
@@ -18,12 +18,11 @@
 /* INSIDE SCREEN */
 
 .inside-screen {
-    background-image: url('img/bg-header.jpg');
+    background-image: url('img/BG-HWS.JPG');
     background-repeat: no-repeat;
-    background-position: 0 -100px;
     width: 100%;
-    height: 789px;
-    padding: 100px 0 0 50px;
+    height: 729px;
+    padding: 80px 0 0 50px;
 }
 .inside-screen .black-opacity {
     background: #000;
@@ -36,11 +35,11 @@
 /* MAIN TITLE */
 
 .inside-screen .main-title {
-    width: 800px;
+    width: 600px;
 }
 .inside-screen .main-title h1 {
     font-family: 'Sulphur Point';
-    font-size: 130px;
+    font-size: 100px;
     color: #fff;
     font-weight: 700;
 }
@@ -62,6 +61,10 @@
 /* SEARCHER */
 
 .inside-screen .searcher-container {
+    display: flex;
+    margin: 100px auto 0 auto;
+    width: 600px;
+    border: 5px solid rgba(255, 255, 255, 0.8)
 }
 
 .inside-screen .searcher-container .searcher {
@@ -69,7 +72,87 @@
     width: 600px;
     height: 80px;;
     outline: none;
-    border: 5px solid rgba(255, 255, 255, 0.3);
+    border: none;
 
     font-family: 'Open Sans';
+    font-size: 24px;
+    color: #fff;
+    padding-left: 20px;
+
+}
+.inside-screen .searcher-container .submit {
+    width: 150px;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside-screen .searcher-container .submit:hover {
+    cursor: pointer;
+} 
+
+/* SCROLL */
+
+.inside-screen .scroll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 130px;
+}
+
+.inside-screen .scroll span {
+    color: #fff;
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+
+.inside-screen .scroll .white-bar {
+    background: #fff;
+    width: 1px;
+    height: 20px;
+}
+
+.inside-screen .scroll .black-bar {
+    background: #000;
+    width: 1px;
+    height: 20px;
+}
+
+/* VERTICAL BAR LEFT */
+
+.main-window .vertical-bar-left {
+    position: fixed;
+    top: 44px;
+
+}
+
+.main-window .vertical-bar-left svg {
+    position: fixed;
+    left: 60px;
+}
+
+.main-window .vertical-bar-right {
+    position: fixed;
+    top: 600px;
+
+}
+
+.main-window .vertical-bar-right svg {
+    position: fixed;
+    right: 80px;
+}
+
+/* SOCIAL MEDIA */
+
+.main-window .social-media {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    right: 55px;
+    top: 200px;
 }
