@@ -20,6 +20,7 @@
 .inside-screen {
     background-image: url('img/BG-HWS.JPG');
     background-repeat: no-repeat;
+    background-size: 1663px 829px;
     width: 100%;
     height: 729px;
     padding: 80px 0 0 50px;
@@ -143,7 +144,7 @@
 
 .main-window .vertical-bar-right svg {
     position: fixed;
-    right: 80px;
+    right: 60px;
 }
 
 /* SOCIAL MEDIA */
@@ -153,6 +154,6 @@
     display: flex;
     flex-direction: column;
     gap: 100px;
-    right: 55px;
+    right: 35px;
     top: 200px;
 }
