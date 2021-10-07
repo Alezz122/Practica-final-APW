@@ -38,3 +38,41 @@ for(let i=0; i < navbarLinks.length; i++){
         navbarLinks[i].classList.remove('nav-links-anim-in');
     })
 }
+
+// GALLERY CONTAINER 
+
+var gallery = document.getElementById('gallery-container')
+
+gallery.addEventListener('mouseover', () => {
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+    // gallery.addEventListener('mousedown', (e) => {
+    //     var xPos = [e.clientX]
+    //     zeroPos = [...xPos],
+    //     moveright = 0,
+    //     moveleft = 0;
+
+    //     console.log('ZeroPos: '+ zeroPos[0])
+    //     gallery.addEventListener('mousemove', (e) => {
+    //         console.log(e.clientX)
+    //         if(zeroPos[0] > e.clientX){
+    //             gallery.style.right = moveright++;
+    //         }else if(zeroPos[0] < e.clientX){
+    //             gallery.style.left = moveleft++;
+    //         }
+    //     })
+    //     gallery.addEventListener('mouseup', () => { 
+    //     })
+    // })
