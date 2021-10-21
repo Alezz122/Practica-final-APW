@@ -1,44 +1,12 @@
-.explore-section {
-    margin-top: 300px;
-}
-.explore-section .main-window {
-    height: 700px;
-    background-color: black;
+.carousel {
+    margin-top: 200px;
 }
 
-.explore-section .explore-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+.carousel-inner {
+    height: 800px;
 }
-.explore-section .explore-container .gallery-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    z-index: 1
+.carousel-control-prev-icon {
+    color: #000 !important;
+    width: 4rem;
+    height: 4rem;
 }
-.explore-section .explore-container .gallery-container .image-container {
-    width: 80%;
-    height: 500px;
-    background-color: rgb(41, 149, 168);
-}
-
-.explore-section .explore-container .gallery-container .image-container .titles-container {
-    width: 600px;
-    margin: 30px 0 0 30px;
-}
-
-.explore-section .explore-container .gallery-container .image-container .titles-container h3 {
-    font-family: 'Lato';
-    font-size: 60px;
-    color: #fff;
-}
-
-.explore-section .explore-container .gallery-container .image-container .titles-container p {
-    font-family: 'Lato';
-    font-size: 25px;
-    color: #fff;
-}
-

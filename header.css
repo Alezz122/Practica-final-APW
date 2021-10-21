@@ -3,8 +3,20 @@
     flex-wrap: wrap;
     margin: 0 120px 0 120px;
 }
-.vertical-container-margin {
-    width: 150px;
+.vertical-white-margin {
+    background: #fff;
+    position: absolute;
+    z-index: 10;
+    width: 120px;
+    height: 3000px;
+}
+.vertical-white-margin2 {
+    background: #fff;
+    position: absolute;
+    right: 0px;
+    z-index: 10;
+    width: 120px;
+    height: 5000px;
 }
 .top-title {
     margin: 10px 0 10px 10px;
@@ -102,7 +114,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 130px;
+    margin-top: 65px;
 }
 
 .inside-screen .scroll span {
@@ -127,23 +139,28 @@
 
 .main-window .vertical-bar-left {
     position: fixed;
+    z-index: 10;
     top: 44px;
 
 }
 
 .main-window .vertical-bar-left svg {
     position: fixed;
+    z-index: 10;
     left: 60px;
 }
 
 .main-window .vertical-bar-right {
     position: fixed;
+    z-index: 10;
     top: 600px;
+    box-shadow: 5px 5px 5px #fff;
 
 }
 
 .main-window .vertical-bar-right svg {
     position: fixed;
+    z-index: 10;
     right: 60px;
 }
 
@@ -153,6 +170,7 @@
     position: fixed;
     display: flex;
     flex-direction: column;
+    z-index: 10;
     gap: 100px;
     right: 35px;
     top: 200px;

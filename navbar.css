@@ -4,7 +4,7 @@ nav {
     background-color: #000;
     display: flex;
     position: fixed;
-    z-index: 5;
+    z-index: 11;
 }
 nav svg {
     position: absolute;
@@ -42,6 +42,7 @@ nav .navbar-items .navbar-links ul li a {
     font-size: 24px;
     color: #fff;
     text-decoration: none;
+    opacity: 0.5;
 }
 
 
@@ -51,12 +52,14 @@ nav .navbar-items .navbar-links ul li a {
 .nav-links-anim-in {
     text-decoration: line-through !important;
     text-shadow: 0 0 15px #fff;
+    opacity: 1 !important;
     transition-timing-function: ease-out;
     transition-duration: 0.2s;
 }
 .nav-links-anim-out {
     text-decoration: none;
-        transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    opacity: 0.5;
     transition-duration: 0.2s;
 }
 

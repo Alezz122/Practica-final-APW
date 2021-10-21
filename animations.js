@@ -41,23 +41,6 @@ for(let i=0; i < navbarLinks.length; i++){
 
 // GALLERY CONTAINER 
 
-var gallery = document.getElementById('gallery-container')
-
-gallery.addEventListener('mouseover', () => {
-
-})
-
-
-
-
-
-
-
-
-
-
-
-
     // gallery.addEventListener('mousedown', (e) => {
     //     var xPos = [e.clientX]
     //     zeroPos = [...xPos],
@@ -76,3 +59,20 @@ gallery.addEventListener('mouseover', () => {
     //     gallery.addEventListener('mouseup', () => { 
     //     })
     // })
+
+// 
+
+
+// RESERVE SECTION
+
+var titleVisit = document.getElementById('title-visit')
+
+titleVisit.addEventListener('mouseover', () => {
+    titleVisit.classList.add('text-reserve-in');
+    titleVisit.classList.remove('text-reserve-out');
+})
+
+titleVisit.addEventListener('mouseout', () => {
+    titleVisit.classList.add('text-reserve-out');
+    titleVisit.classList.remove('text-reserve-in');
+})

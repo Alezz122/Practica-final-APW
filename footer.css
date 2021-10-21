@@ -1,0 +1,7 @@
+footer {
+    position: relative;
+    z-index: 12;
+    background-color: #000;
+    width: 100%;
+    height: 400px;
+}

@@ -1,0 +1,27 @@
+.visits-container {
+    margin-top: 200px;
+}
+.visits-container .main-window-visits {
+    width: 100%;
+    height: 700px;
+    background-color: #000;
+}
+
+.visits-container .main-window-visits .visits-content .image-visits {
+    margin: 0 0 150px 150px;
+    padding-top: 35px;
+}
+
+.visits-container .main-window-visits .visits-content .text-visits {
+    position: relative;
+    bottom: 770px;
+    left: 700px;
+    width: 400px;
+}
+
+.visits-container .main-window-visits .visits-content .text-visits h2 {
+    color: #fff;
+    font-size: 100px;
+    font-family: 'Lato';
+    font-weight: 600;
+}
