@@ -66,13 +66,59 @@ for(let i=0; i < navbarLinks.length; i++){
 // RESERVE SECTION
 
 var titleVisit = document.getElementById('title-visit')
+var circles = document.getElementsByClassName("circle");
 
 titleVisit.addEventListener('mouseover', () => {
     titleVisit.classList.add('text-reserve-in');
     titleVisit.classList.remove('text-reserve-out');
+    
+    for(let i=0; i<circles.length;i++){
+        circles[i].classList.add('circles-in');
+        circles[i].classList.remove('circles-out');
+    }
 })
 
 titleVisit.addEventListener('mouseout', () => {
     titleVisit.classList.add('text-reserve-out');
     titleVisit.classList.remove('text-reserve-in');
+
+    for(let i=0; i<circles.length;i++){
+        circles[i].classList.add('circles-out');
+        circles[i].classList.remove('circles-in');
+    }
+    
 })
+
+    circles[0].animate([
+        // keyframes
+        { transform: 'translateY(0px)' },
+        { transform: 'translateY(-100px)' },
+        { transform: 'translateX(100px)' },
+        { transform: 'translateY(0px)' },
+      ], {
+        // timing options
+        duration: 80000,
+        iterations: Infinity
+      });
+      circles[1].animate([
+        // keyframes
+        { transform: 'translateY(0px)' },
+        { transform: 'translateY(-200px)' },
+        { transform: 'translateX(-100px)' },
+        { transform: 'translateY(0px)' },
+      ], {
+        // timing options
+        duration: 80000,
+        iterations: Infinity
+      });
+      circles[2].animate([
+        // keyframes
+        { transform: 'translateY(0px)' },
+        { transform: 'translateY(200px)' },
+        { transform: 'translateX(300px)' },
+        { transform: 'translateY(0px)' },
+      ], {
+        // timing options
+        duration: 80000,
+        iterations: Infinity
+      });
