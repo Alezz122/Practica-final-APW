@@ -6,13 +6,16 @@ bodyEl.classList.add('start-page-anim')
 
 // SCROLL
 
-var exploreContainer = document.getElementById('explore-container');
+var exploreContainer = document.getElementById('explore-container'),
+visitsContainerFather = document.getElementById('visits-container-father')
 
-document.addEventListener('onscroll', () => {
-  console.log('a')
-  if(bodyEl.scrollTop > 100){
-    console.log('b')
-    exploreContainer.classList.add('scroll-animation')
+document.addEventListener('scroll', () => {
+  console.log(bodyEl.scrollTop)
+  if(bodyEl.scrollTop > 150 && bodyEl.scrollTop < 1200){
+    exploreContainer.classList.add('scroll-animation-explore')
+  }else if(bodyEl.scrollTop > 1300 && bodyEl.scrollTop < 2000){
+    console.log('adafs')
+    visitsContainerFather.classList.add('scroll-animation-visits')
   }
 })
 
@@ -235,28 +238,28 @@ titleReserve.addEventListener('mouseout', () => {
         { transform: 'translateY(0px)' },
       ], {
         // timing options
-        duration: 80000,
+        duration: 50000,
         iterations: Infinity
       });
       var circle1 = circles[1].animate([
         // keyframes
         { transform: 'translateY(0px)' },
-        { transform: 'translateY(-200px)' },
+        { transform: 'translateY(-100px)' },
         { transform: 'translateX(-100px)' },
         { transform: 'translateY(0px)' },
       ], {
         // timing options
-        duration: 80000,
+        duration: 50000,
         iterations: Infinity
       });
       var circle2 = circles[2].animate([
         // keyframes
         { transform: 'translateY(0px)' },
-        { transform: 'translateY(200px)' },
-        { transform: 'translateX(-200px)' },
+        { transform: 'translateY(-150px)' },
+        { transform: 'translateX(-120px)' },
         { transform: 'translateY(0px)' },
       ], {
         // timing options
-        duration: 80000,
+        duration: 50000,
         iterations: Infinity
       });

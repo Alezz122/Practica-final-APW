@@ -1,5 +1,7 @@
 .visits-container {
-    margin-top: 200px;
+    margin-top: 700px;
+    opacity: 0;
+    
 }
 .visits-container .main-window-visits {
     width: 100%;
@@ -68,4 +70,10 @@
 .visits-container-out {
     height: 700px !important;
     transition: 1s;
+}
+
+.scroll-animation-visits {
+    margin-top: 200px !important;
+    opacity: 1 !important;
+    transition: 3s;
 }

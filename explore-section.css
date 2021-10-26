@@ -1,5 +1,6 @@
 .explore-container {
     margin-top: 700px;
+    opacity: 0;
 }
 .carousel {
     margin-top: 200px;
@@ -16,7 +17,8 @@
 
 /* ANIMATIONS */
 
-.scroll-animation {
+.scroll-animation-explore {
     margin-top: 0 !important;
-    transition: 1s;
+    opacity: 1 !important;
+    transition: 3s;
 }
