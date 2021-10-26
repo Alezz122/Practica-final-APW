@@ -1,3 +1,6 @@
+.explore-container {
+    margin-top: 700px;
+}
 .carousel {
     margin-top: 200px;
 }
@@ -9,4 +12,11 @@
     color: #000 !important;
     width: 4rem;
     height: 4rem;
+}
+
+/* ANIMATIONS */
+
+.scroll-animation {
+    margin-top: 0 !important;
+    transition: 1s;
 }

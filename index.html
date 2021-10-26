@@ -71,10 +71,10 @@
 
                     <!-- SEARCHER -->
 
-                    <div class="searcher-container">
+                    <div class="searcher-container" id="searcher-container">
                         <input type="search" name="searcher" class="searcher" id="searcher" placeholder="Greece, Flower Street">
                         <div class="submit" id="submit">
-                            <svg width="63" height="46" viewBox="0 0 63 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg class="arrow" id="arrow" width="63" height="46" viewBox="0 0 63 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M62.1213 25.1213C63.2929 23.9497 63.2929 22.0503 62.1213 20.8787L43.0294 1.7868C41.8579 0.615224 39.9584 0.615224 38.7868 1.7868C37.6152 2.95837 37.6152 4.85786 38.7868 6.02944L55.7574 23L38.7868 39.9706C37.6152 41.1421 37.6152 43.0416 38.7868 44.2132C39.9584 45.3848 41.8579 45.3848 43.0294 44.2132L62.1213 25.1213ZM0 26L60 26V20L0 20L0 26Z" fill="white"/>
                             </svg>
                         </div>
@@ -117,7 +117,7 @@
                 </div>
             </div>
         </header>
-        <div class="explore-container">
+        <div class="explore-container" id="explore-container">
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner h-500">
                   <div class="carousel-item active">
@@ -141,21 +141,21 @@
               </div>
         </div>
         <div class="visits-container">
-            <div class="main-window-visits">
-                <div class="visits-content">
+            <div class="main-window-visits" id="visits-container">
+                <div class="visits-content" id="visits-content">
                     <div class="image-visits">
-                        <img src="img/visits-image.jpg" alt="">
+                        <img src="img/visits-image.jpg" alt="" id="visits-image">
                     </div>
                     <div class="text-visits">
-                        <h2>Disfruta de nuestras visitas guiadas.</h2>
+                        <h2 id="visits-title">Disfruta de nuestras visitas guiadas.</h2>
                     </div>
                 </div>
             </div>
         </div>
         <div class="reserve-section">
-            <div class="main-window-visits">
+            <div class="main-window-visits" id="main-window-reserve">
                 <div class="title-visits">
-                    <h2 id="title-visit">RESERVA TU HABITACIÓN</h2>
+                    <h2 id="title-reserve">RESERVA TU HABITACIÓN</h2>
                 </div>
                 <div class="circle circle1"></div>
                 <div class="circle circle2"></div>
