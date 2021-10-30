@@ -1,0 +1,12 @@
+@import url('header.css');
+@import url('navbar.css');
+@import url('form.css');
+@import url('section-hotels.css');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+}

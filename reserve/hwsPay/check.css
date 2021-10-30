@@ -1,0 +1,113 @@
+.main {
+    margin: 40px 0 100px 0;
+}
+.check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check .check-table {
+    width: 500px;
+    height: 600px;
+    background-color: rgb(252, 252, 252);
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+}
+
+.check .check-table .container-main-title .main-title {
+    font-family: 'Sulphur Point';
+    font-size: 30px;
+    height: 70px;
+    width: 200px;
+}
+.check .check-table .container-reserve-title {
+    width: 300px;
+}
+.check .check-table .container-reserve-title .reserve-info-title h5 {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.container-reserve-titles {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 25px;
+    border-bottom: 1px solid #000;
+}
+.container-reserve-titles h5 {
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+
+.container-reserve-data {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 5px;
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+.container-reserve-data div {
+    width: 75px;
+}
+
+.container-reserve-data span {
+    font-family: 'Open Sans';
+    font-size: 12px;
+}
+
+.check .check-table .container-pay-title h5 {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 14px;
+    text-decoration: underline;
+    margin-top: 25px;
+}
+
+.check .check-table .pay-data {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.check .check-table .pay-data h5 {
+    font-family: 'Open Sans';
+    font-weight: 300;
+
+}
+
+.check .check-table .extra-info {
+    margin-top: 50px;
+}
+
+.check .check-table .extra-info p {
+    font-family: 'Open Sans';
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.check .check-table .buttons-container {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.check .check-table .buttons-container button {
+    padding: 10px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border: 1px solid #000;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.check .check-table .buttons-container .button-buy button {
+    background-color: rgb(226, 255, 206);
+    width: 200px;
+}
