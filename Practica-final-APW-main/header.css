@@ -1,0 +1,222 @@
+.main-window {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 120px 0 120px;
+}
+.vertical-white-margin {
+    background: var(--bs-gray-100);
+    position: absolute;
+    z-index: 10;
+    width: 120px;
+    height: 4000px;
+}
+.vertical-white-margin2 {
+    background: var(--bs-gray-100);
+    position: absolute;
+    right: 0px;
+    z-index: 10;
+    width: 120px;
+    height: 4000px;
+}
+.top-title {
+    margin: 10px 0 10px 10px;
+    width: 100%;
+}
+.top-title h2 {
+    font-family: 'Sulphur Point';
+    font-size: 60px;
+}
+
+/* INSIDE SCREEN */
+
+.inside-screen {
+    background-image: url('img/BG-HWS.JPG');
+    background-repeat: no-repeat;
+    background-size: 1663px 829px;
+    width: 100%;
+    height: 729px;
+    padding: 80px 0 0 50px;
+}
+.inside-screen .black-opacity {
+    background: #000;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    position: relative;
+}
+
+/* MAIN TITLE */
+
+.inside-screen .main-title {
+    width: 600px;
+}
+.inside-screen .main-title h1 {
+    font-family: 'Sulphur Point';
+    font-size: 100px;
+    color: var(--bs-gray-100);
+    font-weight: 700;
+}
+
+/* MAIN SUBTITLE */
+
+.inside-screen .main-subtitle {
+    width: 600px;
+    margin-left: 30px;
+}
+
+.inside-screen .main-subtitle span {
+    font-family: 'Open Sans';
+    font-size: 34px;
+    font-weight: 300;
+    color: #fff;
+}
+
+/* SEARCHER */
+
+.inside-screen .searcher-container {
+    display: flex;
+    margin: 100px auto 0 auto;
+    width: 600px;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.8);
+}
+
+.inside-screen .searcher-container .searcher {
+    background-color: transparent;
+    width: 600px;
+    height: 80px;;
+    outline: none;
+    border: none;
+
+    font-family: 'Open Sans';
+    font-size: 24px;
+    color: var(--bs-gray-100) !important;
+    padding-left: 20px;
+
+}
+.inside-screen .searcher-container .submit {
+    width: 150px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside-screen .searcher-container .submit:hover {
+    cursor: pointer;
+} 
+.inside-screen .searcher-container .submit .arrow {
+    opacity: 0;
+}
+/* SCROLL */
+
+.inside-screen .scroll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 71px;
+}
+
+.inside-screen .scroll span {
+    color: #fff;
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+
+.inside-screen .scroll .white-bar {
+    background: #fff;
+    width: 1px;
+    height: 20px;
+}
+
+.inside-screen .scroll .black-bar {
+    background: #000;
+    width: 1px;
+    height: 20px;
+}
+
+/* VERTICAL BAR LEFT */
+
+.main-window .vertical-bar-left {
+    position: fixed;
+    z-index: 10;
+    top: 44px;
+
+}
+
+.main-window .vertical-bar-left svg {
+    position: fixed;
+    z-index: 10;
+    left: 60px;
+}
+
+.main-window .vertical-bar-right {
+    position: fixed;
+    z-index: 10;
+    top: 600px;
+    box-shadow: 5px 5px 5px #fff;
+
+}
+
+.main-window .vertical-bar-right svg {
+    position: fixed;
+    z-index: 10;
+    right: 60px;
+}
+
+/* SOCIAL MEDIA */
+
+.main-window .social-media {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    gap: 100px;
+    right: 35px;
+    top: 200px;
+}
+
+/* ANIMATIONS */
+
+.searcher-in {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    transition:0.5s;
+}
+.searcher-out {
+    background: none !important;
+    transition:0.5s;
+}
+
+.searcher-container-in {
+    transition:0.5s;
+}
+.searcher-container-out {
+    border-bottom: 5px solid rgba(255, 255, 255, 0.8) !important;
+    transition:0.5s;
+}
+
+.submit-in {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    transition: 0.5s;
+}
+
+.submit-out {
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.arrow-in {
+    opacity: 1 !important;
+    transition: 0.5s;
+}
+
+.arrow-out {
+    opacity: 0 !important;
+    transition: 0.5s;
+}

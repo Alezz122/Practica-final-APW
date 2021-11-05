@@ -1,0 +1,153 @@
+.section-hotels {
+    display: flex;
+}
+.section-hotels .sidebar-container {
+    width: 15%;
+    margin: 150px 0 0 50px;
+
+}
+.section-hotels .sidebar-container aside {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    height: 700px;
+}
+.section-hotels .sidebar-container aside .top-title {
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+.section-hotels .sidebar-container aside .top-title h2 {
+    font-family: 'Open Sans';
+    font-size: 28px;
+    font-weight: 700;
+    color: #000;
+}
+.section-hotels .sidebar-container aside .filters {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 30px 0 0 30px;
+    font-family: 'Open Sans';
+    color: #000;
+}
+.section-hotels .sidebar-container aside .filters .filter-item input {
+    width: 17px;
+    height: 17px;
+}
+.section-hotels .sidebar-container aside .filters .filter-item span {
+    font-size: 20px;
+}
+.section-hotels .hotels-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 150px;
+    width: 85%;
+}
+
+.section-hotels .hotels-container .hotel-card {
+    width: 350px;
+    height: 591px;
+    background: #e9ecef;
+    font-family: 'Open Sans';
+    backdrop-filter: blur(10px);
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+.section-hotels .hotels-container .hotel-card .top-card .hotel-puntuation {
+    background: rgba(139, 235, 17, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    float: right;
+    position: absolute;
+    margin: 10px 0 0 10px;
+}
+.section-hotels .hotels-container .hotel-card .top-card .hotel-puntuation span {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
+}
+.section-hotels .hotels-container .hotel-card .top-card img {
+    width: 100%;
+}
+
+.section-hotels .hotels-container .hotel-card .middle-card {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 10px 0 0 10px;
+}
+.section-hotels .hotels-container .hotel-card .middle-card .hotel-stars-price {
+    display: flex;
+}
+.section-hotels .hotels-container .hotel-card .middle-card .hotel-stars-price .hotel-stars{
+    display: flex;
+    gap: 8px;
+}
+.section-hotels .hotels-container .hotel-card .middle-card .hotel-stars-price .hotel-price {
+    margin-left: 95px;
+}
+.section-hotels .hotels-container .hotel-card .middle-card .hotel-stars-price .hotel-price span{
+    font-size: 32px;
+    font-weight: 700;
+    color:#222
+}
+
+.section-hotels .hotels-container .hotel-card .middle-card .hotel-name h2 {
+    color: #222;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+
+.section-hotels .hotels-container .hotel-card .middle-card .hotel-direction span {
+    font-weight: 300;
+    font-size: 18px;
+    color: #222;
+}
+
+.section-hotels .hotels-container .hotel-card .middle-card .hotel-description p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #222;
+}
+
+.section-hotels .hotels-container .hotel-card .middle-card .hotel-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.section-hotels .hotels-container .hotel-card .middle-card .hotel-tags .tags {
+    background-color: #222;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 5px 5px 5px 40px;
+}
+
+.section-hotels .hotels-container .hotel-card .bottom-card .hotel-reserve-button {
+    margin-top: 20px;
+}
+.section-hotels .hotels-container .hotel-card .bottom-card .hotel-reserve-button input {
+    background-color: rgb(83, 175, 74);
+    width: 100%;
+    height: 53px;
+    outline: none;
+    border: none;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}

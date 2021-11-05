@@ -1,0 +1,25 @@
+@import url("navbar.css");
+@import url("header.css");
+@import url("explore-section.css");
+@import url("visits-section.css");
+@import url("reserve-section.css");
+@import url("footer.css");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+*::selection {
+    background-color: rgb(0, 0, 0);
+}
+body {
+    opacity: 0;
+}
+.main {
+    background-color: var(--bs-gray-100);
+}
+
+.start-page-anim {
+    opacity: 1;
+    transition: 2s;
+}
